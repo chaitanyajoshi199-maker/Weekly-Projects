@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.header-text {
+  font-size: 13px;
+  color: white;
+}
