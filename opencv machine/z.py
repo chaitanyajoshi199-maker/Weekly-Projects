@@ -1,0 +1,7 @@
+import cv2 as cv
+print(cv.FONT_HERSHEY_PLAIN)
+print(cv.FONT_HERSHEY_SIMPLEX)
+# print(cv.FONT_HERSHEY_DUPLEX)
+# print(cv.FONT_HERSHEY_TRIPLEX)
+# print(cv.FONT_HERSHEY_COMPL/ 
+# print(cv.FONT_HERSHEY_SCRIPT_COMPLEX) 
