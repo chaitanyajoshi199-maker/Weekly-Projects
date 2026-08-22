@@ -1,0 +1,84 @@
+{
+    "statCardData": {
+        "inspected": 1247,
+        "pass": 1198
+    },
+    "inspectionData": [
+        {
+            "productId": "1",
+            "batchNo": "B101",
+            "imageUrl": "./scratched-bottle.jpg",
+            "defectDetails": {
+                "type": "Scratch",
+                "location": {
+                    "x": 50,
+                    "y": 70
+                },
+                "size": {
+                    "width": 50,
+                    "height": 22
+                },
+                "severity": "medium",
+                "threshold": 40
+            },
+            "confidence": 31,
+            "inspectedAt": 1765079040000
+        },
+        {
+            "productId": "2",
+            "batchNo": "B101",
+            "imageUrl": "./bottle.png",
+            "defectDetails": null,
+            "confidence": 85,
+            "inspectedAt": 1765079040500
+        },
+        {
+            "productId": "3",
+            "batchNo": "B101",
+            "imageUrl": "./dented-bottle.jpg",
+            "defectDetails": {
+                "type": "Dent",
+                "location": {
+                    "x": 40,
+                    "y": 60
+                },
+                "size": {
+                    "width": 30,
+                    "height": 10
+                },
+                "severity": "high",
+                "threshold": 25
+            },
+            "confidence": 20,
+            "inspectedAt": 1765079041000
+        },
+        {
+            "productId": "4",
+            "batchNo": "B101",
+            "imageUrl": "./bottle.png",
+            "defectDetails": null,
+            "confidence": 92,
+            "inspectedAt": 1765079041500
+        },
+        {
+            "productId": "5",
+            "batchNo": "B101",
+            "imageUrl": "./holed-bottle.jpg",
+            "defectDetails": {
+                "type": "Hole",
+                "location": {
+                    "x": 100,
+                    "y": 80
+                },
+                "size": {
+                    "width": 20,
+                    "height": 5
+                },
+                "severity": "critical",
+                "threshold": 15
+            },
+            "confidence": 10,
+            "inspectedAt": 1765079042000
+        }
+    ]
+}
